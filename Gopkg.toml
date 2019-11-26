@@ -79,8 +79,16 @@ required = [
   name = "github.com/spf13/cobra"
   revision = "fe5e611709b0c57fa4a89136deaa8e1d4004d053"
 
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  revision = "v1.4.2"
+
 # TODO: move off of k8s.io/kube-openapi and use controller-tools for CRD spec generation
 # (override argoproj/argo contraint on master)
 [[override]]
   revision = "411b2483e5034420675ebcdd4a55fc76fe5e55cf"
   name = "k8s.io/kube-openapi"
+
+[[constraint]]
+  name = "github.com/antonfisher/nested-logrus-formatter"
+  version = "1.0.2"

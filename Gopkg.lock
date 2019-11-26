@@ -57,6 +57,14 @@
   revision = "09c41003ee1d5015b75f331e52215512e7145b8d"
 
 [[projects]]
+  digest = "1:6c656930bb4378701084067f6133645b9f401d2f17ce666308cb697e268b4b2f"
+  name = "github.com/antonfisher/nested-logrus-formatter"
+  packages = ["."]
+  pruneopts = ""
+  revision = "4968324eae5502c75ff79a28404124ae70a0f4f1"
+  version = "v1.0.2"
+
+[[projects]]
   branch = "master"
   digest = "1:0caf9208419fa5db5a0ca7112affaa9550c54291dda8e2abac0c0e76181c959e"
   name = "github.com/argoproj/argo"
@@ -473,8 +481,7 @@
   version = "v1.4.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:9dca8c981b8aed7448d94e78bc68a76784867a38b3036d5aabc0b32d92ffd1f4"
+  digest = "1:cbea643bd7f1c76bb6e48ab08f3dd01456602ab7b252f3c85133d7a1a6413a18"
   name = "github.com/grpc-ecosystem/go-grpc-middleware"
   packages = [
     ".",
@@ -489,7 +496,8 @@
     "util/metautils",
   ]
   pruneopts = ""
-  revision = "bc372cc64f55abd91995ba3f219b380ffbc59e9d"
+  revision = "dd15ed025b6054e5253963e355991f3070d4e593"
+  version = "v1.1.0"
 
 [[projects]]
   digest = "1:e24dc5ef44694848785de507f439a24e9e6d96d7b43b8cf3d6cfa857aa1e2186"
@@ -765,15 +773,14 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:01d968ff6535945510c944983eee024e81f1c949043e9bbfe5ab206ebc3588a4"
+  digest = "1:1a405cddcf3368445051fb70ab465ae99da56ad7be8d8ca7fc52159d1c2d873c"
   name = "github.com/sirupsen/logrus"
   packages = [
     ".",
     "hooks/test",
   ]
   pruneopts = ""
-  revision = "a67f783a3814b8729bd2dac5780b5f78f8dbd64d"
-  version = "v1.1.0"
+  revision = "v1.4.2"
 
 [[projects]]
   branch = "master"
@@ -1600,6 +1607,7 @@
     "bou.ke/monkey",
     "github.com/Masterminds/semver",
     "github.com/TomOnTime/utfutil",
+    "github.com/antonfisher/nested-logrus-formatter",
     "github.com/argoproj/argo/util",
     "github.com/argoproj/pkg/errors",
     "github.com/argoproj/pkg/exec",
